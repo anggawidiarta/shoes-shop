@@ -6,7 +6,7 @@ import SuperQuality from "./sections/SuperQuality";
 import Subscribe from "./sections/Subscribe";
 import CustomerReviews from "./sections/CustomerReviews";
 import SpecialOffer from "./sections/SpecialOffer";
-import Nav from "./components/nav";
+import Nav from "./components/Nav";
 
 export default function App() {
   return (

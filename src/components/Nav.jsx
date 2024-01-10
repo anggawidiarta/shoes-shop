@@ -1,4 +1,5 @@
 import { navLinks } from "../constants/index";
+import { hamburger } from "../assets/icons";
 const Nav = () => {
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
@@ -7,12 +8,11 @@ const Nav = () => {
           <img
             src="src/assets/logo.svg"
             alt="logo"
-            width={129}
-            className="m-0 w-[129px] h-[50px]"
+            className="m-0 w-[50px] h-[50px]"
           />
         </a>
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
-          {navLinks.map((item) => {
+          {navLinks.map((item) => (
             <li key={item.label}>
               <a
                 href={item.href}
@@ -20,9 +20,17 @@ const Nav = () => {
               >
                 {item.label}
               </a>
-            </li>;
-          })}
+            </li>
+          ))}
         </ul>
+        <div className="flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24">
+          <a href="/">Sign in</a>
+          <span>/</span>
+          <a href="/">Explore now</a>
+        </div>
+        <div className="hidden max-lg:block">
+          <img src={hamburger} alt="hamburger icon" width={25} height={25} />
+        </div>
       </nav>
     </header>
   );
