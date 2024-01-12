@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import { products } from "../constants";
 
 const PopularProducts = () => {
   return <div></div>;
