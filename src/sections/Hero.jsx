@@ -1,4 +1,8 @@
+/* eslint-disable react/jsx-key */
 import { arrowRight } from "../assets/icons";
+import { statistics } from "../constants";
+import Button from "../components/Button";
+import { bigShoe1 } from "../assets/images";
 
 const Hero = () => {
   return (
@@ -8,14 +12,42 @@ const Hero = () => {
         className="w-full border-2 flex xl:flex-row min-h-screen justify-center gap-10 max-container p-2"
       >
         <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-          <p>Our Collection</p>
-          <h1>
-            <span>The New Arrival</span>
+          <p className="text-xl font-montserrat text-coral-red">
+            Our Collection
+          </p>
+          <h1 className="font-palanquin text-8xl max-sm:text-[72px] font-bold max-sm:leading-[82]">
+            <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
+              The New Arrival
+            </span>
             <br />
-            <span>Nike</span>
-            Shoes
+            <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
           </h1>
-          <p>Temukan Gaya Berpakaian Paling Keren Bagi Anda Disini</p>
+          <p className="font-montserrat text-slate-gray text-lg mt-6 leading-8 mb-14 sm:max-w-sm">
+            Temukan Gaya Berpakaian Paling Keren Bagi Anda Disini
+          </p>
+          <Button label="Shop Now" iconUrl={arrowRight} />
+          <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
+            {statistics.map((stat) => (
+              <div>
+                <p className=" text-4xl font-palanquin font-bold">
+                  {stat.value}
+                </p>
+                <p className="leading-7 font-montserrat text-slate-gray">
+                  {stat.label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="flex-1 flex justify-center relative items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
+          <img
+            src={bigShoe1}
+            alt="Show Collection"
+            width={610}
+            className="object-contain relative z-10"
+            height={510}
+          />
         </div>
       </section>
     </>
