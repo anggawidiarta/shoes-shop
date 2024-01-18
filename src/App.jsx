@@ -21,7 +21,7 @@ export default function App() {
       <section className="padding">
         <SuperQuality />
       </section>
-      <section className="padding-x py-10">
+      <section className="py-10 padding-x">
         <Services />
       </section>
       <section className="padding">
@@ -30,10 +30,10 @@ export default function App() {
       <section className="padding bg-pale-blue">
         <CustomerReviews />
       </section>
-      <section className="padding-x sm:py-32 py-16 w-full">
+      <section className="w-full py-16 padding-x sm:py-32">
         <Subscribe />
       </section>
-      <section className="padding-x padding-t bg-black pb-8">
+      <section className="pb-8 bg-black padding-x padding-t">
         <Footer />
       </section>
     </main>
