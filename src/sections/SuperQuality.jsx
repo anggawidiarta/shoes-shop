@@ -8,15 +8,13 @@ const SuperQuality = () => {
       className="flex items-center justify-between w-full gap-10 max-lg:flex-col max-container"
     >
       <div className="flex flex-col flex-1">
-        <p className="text-xl font-montserrat text-coral-red">Our Collection</p>
-
-        <h1 className="font-palanquin text-8xl max-sm:text-[72px] font-bold max-sm:leading-[82]">
+        <h2 className="text-4xl font-bold capitalize font-palanquin lg:max-w-lg ">
           <span className="relative z-10 pr-10 xl:bg-white xl:whitespace-nowrap">
             The New Arrival
           </span>
           <br />
           <span className="inline-block mt-3 text-coral-red">Nike</span> Shoes
-        </h1>
+        </h2>
 
         <p className="mt-6 text-lg leading-8 font-montserrat text-slate-gray mb-14 sm:max-w-sm">
           Temukan Gaya Berpakaian Paling Keren Bagi Anda Disini
