@@ -11,10 +11,10 @@ const PopularProducts = () => {
           <span className="text-coral-red"> Popular</span> Products
         </h2>
         <p className="lg:max-w-lg font-montserrat text-slate-gray">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi assdd
           explicabo, sed saepe temporibus quo doloremque? Suscipit a molestias
-          exercitationem est, enim quos commodi atque facere distinctio, aliquam
-          deserunt tenetur harum!
+          assdd exercitationem est, enim quos commodi atque facere distinctio,
+          aliquam assdd deserunt tenetur harum!
         </p>
       </div>
       <div className="grid grid-cols-1 mt-16 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 sm:gap-4 gap-14">
