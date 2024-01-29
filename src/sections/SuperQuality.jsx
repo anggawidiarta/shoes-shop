@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
 import Button from "../components/Button";
 import { arrowRight } from "../assets/icons";
+import { shoe8 } from "../assets/images";
 
 const SuperQuality = () => {
   return (
@@ -9,17 +11,30 @@ const SuperQuality = () => {
     >
       <div className="flex flex-col flex-1">
         <h2 className="text-4xl font-bold capitalize font-palanquin lg:max-w-lg ">
-          <span className="relative z-10 pr-10 xl:bg-white xl:whitespace-nowrap">
-            The New Arrival
-          </span>
+          We Provide You<span className="text-coral-red"> Super</span>
           <br />
-          <span className="inline-block mt-3 text-coral-red">Nike</span> Shoes
+          <span className="text-coral-red"> Quality</span> Shoes
         </h2>
 
         <p className="mt-6 text-lg leading-8 font-montserrat text-slate-gray mb-14 sm:max-w-sm">
-          Temukan Gaya Berpakaian Paling Keren Bagi Anda Disini
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque,
+          nisi expedita, sint quibusdam aliquid eos non incidunt at alias
+          obcaecati quaerat suscipit repellendus sequi, saepe aliquam aspernatur
+          praesentium laborum omnis.
         </p>
-        <Button label="Shop Now" iconUrl={arrowRight} />
+        <div className="mt-11">
+          <Button label="View Details" />
+        </div>
+      </div>
+
+      <div className="flex items-center justify-center flex-1">
+        <img
+          src={shoe8}
+          alt="product detail"
+          width={570}
+          height={522}
+          className="object-contain"
+        />
       </div>
     </section>
   );
