@@ -13,7 +13,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="flex flex-col justify-center w-full min-h-screen gap-10 border-2 xl:flex-row max-container"
+        className="flex flex-col justify-center w-full min-h-screen gap-10 xl:flex-row max-container"
       >
         <div className="relative flex flex-col items-start justify-center w-full xl:w-2/5 max-xl:padding-x pt-28">
           <p className="text-xl font-montserrat text-coral-red">
