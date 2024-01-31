@@ -20,7 +20,7 @@ const Footer = () => {
             cum repellat debitis vero expedita corrupti, quas impedit quos
             possimus vel!
           </p>
-          <div className="flex items-center gap-5 mt8">
+          <div className="flex items-center gap-5 mt-6">
             {socialMedia.map((icon) => (
               <div
                 className="flex items-center justify-center w-12 h-12 bg-white rounded-full"
