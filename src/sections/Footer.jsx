@@ -1,3 +1,4 @@
+import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
@@ -51,6 +52,18 @@ const Footer = () => {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="flex justify-between mt-24 text-white-400 max-sm:flex-col max-sm:items-center">
+        <div className="flex items-center justify-start flex-1 gap-2 cursor-pointer font-montserrat">
+          <img
+            src={copyrightSign}
+            alt="copyright sign"
+            className="w-[20px] h-[20px] rounded-full m-0"
+          />
+          <p>Copyright. All Right Reserved. {new Date().getFullYear()}</p>
+        </div>
+        <p className="cursor-pointer font-montserrat">Terms & Conditions</p>
       </div>
     </footer>
   );
