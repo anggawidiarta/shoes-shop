@@ -16,14 +16,14 @@ const Nav = () => {
             <li key={item.label}>
               <a
                 href={item.href}
-                className="text-lg leading-normal font-montserrat text-slate-gray"
+                className="text-lg font-semibold leading-normal font-montserrat text-primary"
               >
                 {item.label}
               </a>
             </li>
           ))}
         </ul>
-        <div className="flex gap-2 text-lg font-medium leading-normal font-montserrat max-lg:hidden wide:mr-24">
+        <div className="flex gap-2 text-lg font-bold leading-normal font-montserrat max-lg:hidden wide:mr-24 drop-shadow-[0_1.2px_1.2px_rgba(242,231,213,0.8)]">
           <a href="/">Sign In</a>
           <span>/</span>
           <a href="/">Explore now</a>
