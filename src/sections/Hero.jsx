@@ -1,13 +1,14 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/jsx-key */
 import { arrowRight } from "../assets/icons";
 import { shoes, statistics } from "../constants";
 import Button from "../components/Button";
-import { bigShoe1 } from "../assets/images";
+import { bigShoe1, eiger } from "../assets/images";
 import { useState } from "react";
 import ShoeCard from "../components/ShoeCard";
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+  const [bigShoeImg, setBigShoeImg] = useState(eiger);
 
   return (
     <>
@@ -20,18 +21,22 @@ const Hero = () => {
             Our Collection
           </p>
 
-          <h1 className="font-palanquin text-8xl max-sm:text-[72px] font-bold max-sm:leading-[82]">
+          <h1 className="font-palanquin text-8xl max-sm:text-[55px] font-bold max-sm:leading-[52px]">
             <span className="relative z-10 pr-10 xl:bg-white xl:whitespace-nowrap">
-              The New Arrival
+              Sepatu Terpopuler
             </span>
             <br />
-            <span className="inline-block mt-3 text-coral-red">Nike</span> Shoes
+            <span className="inline-block mt-2  text-coral-red">
+              {" "}
+              Toko Sepatu
+            </span>{" "}
           </h1>
 
           <p className="mt-6 text-lg leading-8 font-montserrat text-slate-gray mb-14 sm:max-w-sm">
-            Temukan Gaya Berpakaian Paling Keren Bagi Anda Disini
+            Temukan Gaya Sepatu Yang Paling Cocok Untuk Anda Disini, Lengkap
+            Dengan Berbagai Macam Gaya & Merk
           </p>
-          <Button label="Shop Now" iconUrl={arrowRight} />
+          <Button label="Pesan Sekarang" iconUrl={arrowRight} />
 
           <div className="flex flex-wrap items-start justify-start w-full gap-16 mt-20">
             {statistics.map((stat, index) => (

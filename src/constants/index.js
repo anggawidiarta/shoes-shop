@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {
   facebook,
   instagram,
@@ -7,11 +8,18 @@ import {
   twitter,
 } from "../assets/icons";
 import {
+  adidas,
+  adidasShoe1,
   bigShoe1,
   bigShoe2,
   bigShoe3,
+  converse,
+  converseShoe1,
   customer1,
   customer2,
+  eiger,
+  nbShoe1,
+  puma,
   shoe4,
   shoe5,
   shoe6,
@@ -30,23 +38,24 @@ export const navLinks = [
 
 export const shoes = [
   {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
+    thumbnail: eiger,
+    bigShoe: eiger,
   },
   {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
+    thumbnail: puma,
+    bigShoe: puma,
   },
+
   {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
+    thumbnail: converse,
+    bigShoe: converse,
   },
 ];
 
 export const statistics = [
-  { value: "2k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
+  { value: "500", label: "Merk" },
+  { value: "150", label: "Cabang" },
+  { value: "500k+", label: "Pelanggan" },
 ];
 
 export const products = [

@@ -1,6 +1,13 @@
 import bigShoe1 from "./big-shoe1.png";
 import bigShoe2 from "./big-shoe2.png";
 import bigShoe3 from "./big-shoe3.png";
+import converseShoe1 from "./converse-shoe1.png";
+import adidasShoe1 from "./adidas-shoe1.png";
+import nbShoe1 from "./nb-shoe1.png";
+import eiger from "./eiger.png";
+import puma from "./puma.png";
+import adidas from "./adidas.png";
+import converse from "./converse.png";
 
 import customer1 from "./customer1.jpeg";
 import customer2 from "./customer2.svg";
@@ -22,6 +29,13 @@ import thumbnailShoe2 from "./thumbnail-shoe2.svg";
 import thumbnailShoe3 from "./thumbnail-shoe3.svg";
 
 export {
+  eiger,
+  adidas,
+  converse,
+  puma,
+  adidasShoe1,
+  nbShoe1,
+  converseShoe1,
   bigShoe1,
   bigShoe2,
   bigShoe3,
