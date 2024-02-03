@@ -17,22 +17,22 @@ const Hero = () => {
         className="flex flex-col justify-center w-full min-h-screen gap-10 xl:flex-row max-container"
       >
         <div className="relative flex flex-col items-start justify-center w-full xl:w-2/5 max-xl:padding-x pt-28">
-          <p className="text-xl font-montserrat text-coral-red">
+          <p className="text-xl font-montserrat text-secondary">
             Our Collection
           </p>
 
           <h1 className="font-palanquin text-8xl max-sm:text-[55px] font-bold max-sm:leading-[52px]">
-            <span className="relative z-10 pr-10 xl:bg-white xl:whitespace-nowrap">
-              Sepatu Terpopuler
+            <span className="relative z-10 pr-10 text-primary xl:bg-white xl:whitespace-nowrap">
+              Stylish Ala
             </span>
             <br />
-            <span className="inline-block mt-2  text-coral-red">
+            <span className="inline-block mt-2 text-secondary">
               {" "}
               Toko Sepatu
             </span>{" "}
           </h1>
 
-          <p className="mt-6 text-lg leading-8 font-montserrat text-slate-gray mb-14 sm:max-w-sm">
+          <p className="mt-6 text-lg leading-8 font-montserrat text-primary mb-14 sm:max-w-sm">
             Temukan Gaya Sepatu Yang Paling Cocok Untuk Anda Disini, Lengkap
             Dengan Berbagai Macam Gaya & Merk
           </p>
@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="flex flex-wrap items-start justify-start w-full gap-16 mt-20">
             {statistics.map((stat, index) => (
               <div key={index}>
-                <p className="text-4xl font-bold font-palanquin">
+                <p className="text-4xl font-bold font-palanquin text-primary">
                   {stat.value}
                 </p>
                 <p className="leading-7 font-montserrat text-slate-gray">
