@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import Button from "../components/Button";
 import { arrowRight } from "../assets/icons";
-import { shoe8 } from "../assets/images";
+import { shoe8, shoe9 } from "../assets/images";
 
 const SuperQuality = () => {
   return (
@@ -11,29 +11,27 @@ const SuperQuality = () => {
     >
       <div className="flex flex-col flex-1">
         <h2 className="text-4xl font-bold capitalize font-palanquin lg:max-w-lg ">
-          We Provide You<span className="text-coral-red"> Super</span>
+          Kami Memberikan Anda<span className="text-secondary"> Sepatu</span>
           <br />
-          <span className="text-coral-red"> Quality</span> Shoes
+          <span className="text-secondary"> Berkualitas</span>
         </h2>
 
-        <p className="mt-6 text-lg leading-8 font-montserrat text-slate-gray mb-14 sm:max-w-sm">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque,
-          nisi expedita, sint quibusdam aliquid eos non incidunt at alias
-          obcaecati quaerat suscipit repellendus sequi, saepe aliquam aspernatur
-          praesentium laborum omnis.
+        <p className="mt-6 text-lg leading-8 text-justify font-montserrat text-slate-gray mb-14 sm:max-w-xl">
+          Saatnya untuk melangkah dengan percaya diri dan nyaman setiap hari! Di
+          toko kami, kualitas bukanlah pilihan, melainkan janji yang kami pegang
+          teguh. Setiap pasang sepatu yang kami tawarkan adalah hasil dari
+          dedikasi kami untuk menyajikan yang terbaik bagi Anda
         </p>
-        <div className="mt-11">
-          <Button label="View Details" />
+        <div className="mt-8">
+          <Button label="Lihat Selengkapnya" />
         </div>
       </div>
 
       <div className="flex items-center justify-center flex-1">
         <img
-          src={shoe8}
+          src={shoe9}
           alt="product detail"
-          width={570}
-          height={522}
-          className="object-contain"
+          className="object-contain rounded-xl w-[470px]"
         />
       </div>
     </section>
