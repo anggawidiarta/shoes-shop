@@ -20,6 +20,9 @@ import {
   eiger,
   nbShoe1,
   puma,
+  shoe1,
+  shoe2,
+  shoe3,
   shoe4,
   shoe5,
   shoe6,
@@ -30,10 +33,10 @@ import {
 } from "../assets/images";
 
 export const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
+  { href: "#home", label: "Beranda" },
+  { href: "#products", label: "Produk" },
+  { href: "#about-us", label: "Tentang Kami" },
+  { href: "#contact-us", label: "Hubungi Kami" },
 ];
 
 export const shoes = [
@@ -60,24 +63,28 @@ export const statistics = [
 
 export const products = [
   {
-    imgURL: shoe4,
+    imgURL: shoe1,
     name: "Nike Air Jordan-01",
     price: "$200.20",
+    rating: "4.8",
   },
   {
-    imgURL: shoe5,
+    imgURL: shoe2,
     name: "Nike Air Jordan-10",
     price: "$210.20",
+    rating: "4.5",
   },
   {
-    imgURL: shoe6,
+    imgURL: shoe3,
     name: "Nike Air Jordan-100",
     price: "$220.20",
+    rating: "4.9",
   },
   {
-    imgURL: shoe7,
+    imgURL: shoe4,
     name: "Nike Air Jordan-001",
     price: "$230.20",
+    rating: "4.2",
   },
 ];
 
