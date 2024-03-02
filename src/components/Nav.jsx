@@ -6,7 +6,7 @@ const Nav = () => {
       <nav className="flex items-center justify-between max-container">
         <a href="/">
           <img
-            src="src/assets/logo.svg"
+            src="/logo.svg"
             alt="logo"
             className="m-0 w-[50px] h-[50px]"
           />
